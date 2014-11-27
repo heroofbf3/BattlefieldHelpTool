@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sg553" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sg553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield_3_armored_kill_-_armored_shield_map_-_screen_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield_3_armored_kill_-_armored_shield_map_-_screen_2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-f18-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-f18-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dislike" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dislike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m27 iar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m27 iar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0062.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dao-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dao-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0036" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0036.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0027.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-cobra-8-620x348" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-cobra-8-620x348.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mk11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mk11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0076" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0076.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-btr-90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-btr-90.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newspaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newspaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saiga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saiga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0017.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0060.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mi28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mi28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m1abrams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m1abrams.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m416" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m416.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0006.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="283387" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\283387.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m98b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m98b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0052.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0057" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0057.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-vodnik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-vodnik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0073" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0073.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0064" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0064.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-wallpaper-high-res1_original" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-wallpaper-high-res1_original.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0061.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0015.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mp443" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mp443.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0074" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0074.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0026.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fa18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fa18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-lav25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-lav25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-t90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-t90.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="javelin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\javelin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0008.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ka60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ka60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0032.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sv98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sv98.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dpv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dpv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0042.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ak74" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ak74.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-boat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-boat.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0016.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="svd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\svd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ump45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ump45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="humvee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\humvee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m249.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0056" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0056.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0068" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0068.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0065" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0065.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-mi-28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-mi-28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="an94" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\an94.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kh2002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kh2002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vodnik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vodnik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bf3-littlebird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bf3-littlebird.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-huey-1-620x348" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-huey-1-620x348.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bf3_heli_sm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bf3_heli_sm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0022.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="igla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\igla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BF3-Weapons-Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BF3-Weapons-Image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0054" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0054.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0048.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pp200+" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pp200+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lav-ad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lav-ad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\su39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0029.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lav25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lav25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deletered" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deletered.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-a10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-a10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-z11-8-620x348" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-z11-8-620x348.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0030.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0005.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0046" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0046.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smaw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smaw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0055" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0055.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0012.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0021.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m16a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m16a4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m1014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m1014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0041.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m60e4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m60e4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0071.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="93" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\93.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0050" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0050.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g36c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g36c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-dpv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-dpv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0043.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0037.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-tunguska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-tunguska.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0023.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vdv buggy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vdv buggy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0058.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mp7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mp7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="256250_10150976825778445_478537776_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\256250_10150976825778445_478537776_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="growler-small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\growler-small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0049" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0049.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0019.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0066" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0066.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0013.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0034.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-f35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-f35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aks74u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aks74u.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-vdv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-vdv1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0020.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-aav" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-aav.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0047" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0047.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asval" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asval.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-bmp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-bmp2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m1 abrams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m1 abrams.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bf3-dogtags-all-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bf3-dogtags-all-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0028.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0044.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0045.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0067" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0067.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0040.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0018.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-ka60-5-620x348" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-ka60-5-620x348.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0035" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0035.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="type 88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\type 88.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rhib" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rhib.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0009.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pdwr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pdwr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0075" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0075.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tunguska" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tunguska.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rpk-74m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rpk-74m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-su39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-su39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m40a5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m40a5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0070" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0070.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="93R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\93R.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m1911" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m1911.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0038" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0038.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\magnum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="growler itv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\growler itv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0059" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0059.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m4a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m4a1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0072" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0072.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-lav-ad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-lav-ad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0063" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0063.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0069" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0069.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0039" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0039.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m16a3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m16a3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scarh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scarh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btr90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btr90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stinger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stinger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-su35-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-su35-large.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0053.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0033.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battlefield-3-humvee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battlefield-3-humvee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="870mc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\870mc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aek-971" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aek-971.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pkp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pkp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="su35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\su35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="page0025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\page0025.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a-91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a-91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

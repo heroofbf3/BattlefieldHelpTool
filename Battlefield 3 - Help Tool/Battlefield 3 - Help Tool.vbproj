@@ -1,0 +1,1259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{27FB31B2-4229-4729-909B-4270C13B5D6C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Battlefield_3___Help_Tool.My.MyApplication</StartupObject>
+    <RootNamespace>Battlefield_3___Help_Tool</RootNamespace>
+    <AssemblyName>Battlefield 3 - Help Tool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Battlefield 3 - Help Tool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Battlefield 3 - Help Tool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Battlefield.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>91A0641C70B42CC010C438C70033FF0B5C228DC6</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Battlefield 3 - Help Tool_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Crypter.Designer.vb">
+      <DependentUpon>Crypter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Crypter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Magnum1.Designer.vb">
+      <DependentUpon>Magnum1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Magnum1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="870MCS.Designer.vb">
+      <DependentUpon>870MCS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="870MCS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="870MCS1.Designer.vb">
+      <DependentUpon>870MCS1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="870MCS1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="93R.Designer.vb">
+      <DependentUpon>93R.vb</DependentUpon>
+    </Compile>
+    <Compile Include="93R.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A10Thunderbolt.Designer.vb">
+      <DependentUpon>A10Thunderbolt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="A10Thunderbolt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A91.Designer.vb">
+      <DependentUpon>A91.vb</DependentUpon>
+    </Compile>
+    <Compile Include="A91.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AAV7A1.Designer.vb">
+      <DependentUpon>AAV7A1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AAV7A1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AEK971.Designer.vb">
+      <DependentUpon>AEK971.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AEK971.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AH1.Designer.vb">
+      <DependentUpon>AH1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AH1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AH6J.Designer.vb">
+      <DependentUpon>AH6J.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AH6J.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AK74.Designer.vb">
+      <DependentUpon>AK74.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AK74.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AKS74U.Designer.vb">
+      <DependentUpon>AKS74U.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AKS74U.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AN94.Designer.vb">
+      <DependentUpon>AN94.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AN94.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ASVAL.Designer.vb">
+      <DependentUpon>ASVAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ASVAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BerettaM9.Designer.vb">
+      <DependentUpon>BerettaM9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BerettaM9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BMP2.Designer.vb">
+      <DependentUpon>BMP2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BMP2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BTR90.Designer.vb">
+      <DependentUpon>BTR90.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BTR90.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAO12.Designer.vb">
+      <DependentUpon>DAO12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DAO12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dogtag.Designer.vb">
+      <DependentUpon>Dogtag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dogtag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DPV.Designer.vb">
+      <DependentUpon>DPV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DPV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F2000.Designer.vb">
+      <DependentUpon>F2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="F2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F35.Designer.vb">
+      <DependentUpon>F35.vb</DependentUpon>
+    </Compile>
+    <Compile Include="F35.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FA18SH.Designer.vb">
+      <DependentUpon>FA18SH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FA18SH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FIM92Stinger.Designer.vb">
+      <DependentUpon>FIM92Stinger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FIM92Stinger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M1911.Designer.vb">
+      <DependentUpon>M1911.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M1911.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M416.Designer.vb">
+      <DependentUpon>M416.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M416.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M9.Designer.vb">
+      <DependentUpon>M9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maine.Designer.vb">
+      <DependentUpon>Maine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Support.Designer.vb">
+      <DependentUpon>Support.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Support.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G3.Designer.vb">
+      <DependentUpon>G3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="G3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="G36C.Designer.vb">
+      <DependentUpon>G36C.vb</DependentUpon>
+    </Compile>
+    <Compile Include="G36C.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glock17.Designer.vb">
+      <DependentUpon>Glock17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Glock17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Glock18.Designer.vb">
+      <DependentUpon>Glock18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Glock18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GrowlerITV.Designer.vb">
+      <DependentUpon>GrowlerITV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GrowlerITV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Humvee.Designer.vb">
+      <DependentUpon>Humvee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Humvee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.vb">
+      <DependentUpon>Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Javelin.Designer.vb">
+      <DependentUpon>Javelin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Javelin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="K22Tunguska.Designer.vb">
+      <DependentUpon>K22Tunguska.vb</DependentUpon>
+    </Compile>
+    <Compile Include="K22Tunguska.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KA60.Designer.vb">
+      <DependentUpon>KA60.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KA60.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KH2002.Designer.vb">
+      <DependentUpon>KH2002.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KH2002.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LAV25.Designer.vb">
+      <DependentUpon>LAV25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LAV25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LAVAD.Designer.vb">
+      <DependentUpon>LAVAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LAVAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M1014.Designer.vb">
+      <DependentUpon>M1014.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M1014.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M16A3.Designer.vb">
+      <DependentUpon>M16A3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M16A3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M16A4.Designer.vb">
+      <DependentUpon>M16A4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M16A4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M1Abrams.Designer.vb">
+      <DependentUpon>M1Abrams.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M1Abrams.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M240.Designer.vb">
+      <DependentUpon>M240.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M240.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M249.Designer.vb">
+      <DependentUpon>M249.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M249.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M27.Designer.vb">
+      <DependentUpon>M27.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M27.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M39.Designer.vb">
+      <DependentUpon>M39.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M39.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M40A5.Designer.vb">
+      <DependentUpon>M40A5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M40A5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M4A1.Designer.vb">
+      <DependentUpon>M4A1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M4A1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M60.Designer.vb">
+      <DependentUpon>M60.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M60.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M98B.Designer.vb">
+      <DependentUpon>M98B.vb</DependentUpon>
+    </Compile>
+    <Compile Include="M98B.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="magnum.Designer.vb">
+      <DependentUpon>magnum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="magnum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mi28.Designer.vb">
+      <DependentUpon>Mi28.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mi28.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MK11.Designer.vb">
+      <DependentUpon>MK11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MK11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP412REX.Designer.vb">
+      <DependentUpon>MP412REX.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MP412REX.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP443Grach.Designer.vb">
+      <DependentUpon>MP443Grach.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MP443Grach.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP7.Designer.vb">
+      <DependentUpon>MP7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MP7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="opsa.Designer.vb">
+      <DependentUpon>opsa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="opsa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P90.Designer.vb">
+      <DependentUpon>P90.vb</DependentUpon>
+    </Compile>
+    <Compile Include="P90.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDWR.Designer.vb">
+      <DependentUpon>PDWR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PDWR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PKPPecheneg.Designer.vb">
+      <DependentUpon>PKPPecheneg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PKPPecheneg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PP2000.Designer.vb">
+      <DependentUpon>PP2000.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PP2000.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PremiumGuide.Designer.vb">
+      <DependentUpon>PremiumGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PremiumGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RHIBBoat.Designer.vb">
+      <DependentUpon>RHIBBoat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RHIBBoat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPG7.Designer.vb">
+      <DependentUpon>RPG7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPG7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RPK.Designer.vb">
+      <DependentUpon>RPK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RPK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SA18Igla.Designer.vb">
+      <DependentUpon>SA18Igla.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SA18Igla.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saiga12.Designer.vb">
+      <DependentUpon>Saiga12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Saiga12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SCARH.Designer.vb">
+      <DependentUpon>SCARH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SCARH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SG553.Designer.vb">
+      <DependentUpon>SG553.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SG553.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SKS.Designer.vb">
+      <DependentUpon>SKS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SKS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMAW.Designer.vb">
+      <DependentUpon>SMAW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SMAW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Su35.Designer.vb">
+      <DependentUpon>Su35.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Su35.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Su39.Designer.vb">
+      <DependentUpon>Su39.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Su39.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SV98.Designer.vb">
+      <DependentUpon>SV98.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SV98.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SVD.Designer.vb">
+      <DependentUpon>SVD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SVD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="T90.Designer.vb">
+      <DependentUpon>T90.vb</DependentUpon>
+    </Compile>
+    <Compile Include="T90.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ters.Designer.vb">
+      <DependentUpon>Ters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Theme.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThemeBase.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Type88.Designer.vb">
+      <DependentUpon>Type88.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Type88.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UH1Y.Designer.vb">
+      <DependentUpon>UH1Y.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UH1Y.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMP45.Designer.vb">
+      <DependentUpon>UMP45.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMP45.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USAS12.Designer.vb">
+      <DependentUpon>USAS12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="USAS12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VDVBuggy.Designer.vb">
+      <DependentUpon>VDVBuggy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VDVBuggy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vodnik.Designer.vb">
+      <DependentUpon>Vodnik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vodnik.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Z11.Designer.vb">
+      <DependentUpon>Z11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Z11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Crypter.resx">
+      <DependentUpon>Crypter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M16A3.resx">
+      <DependentUpon>M16A3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="magnum.resx">
+      <DependentUpon>magnum.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Magnum1.resx">
+      <DependentUpon>Magnum1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="870MCS.resx">
+      <DependentUpon>870MCS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="870MCS1.resx">
+      <DependentUpon>870MCS1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="93R.resx">
+      <DependentUpon>93R.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A10Thunderbolt.resx">
+      <DependentUpon>A10Thunderbolt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A91.resx">
+      <DependentUpon>A91.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AAV7A1.resx">
+      <DependentUpon>AAV7A1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AEK971.resx">
+      <DependentUpon>AEK971.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AH1.resx">
+      <DependentUpon>AH1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AH6J.resx">
+      <DependentUpon>AH6J.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AK74.resx">
+      <DependentUpon>AK74.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AKS74U.resx">
+      <DependentUpon>AKS74U.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AN94.resx">
+      <DependentUpon>AN94.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ASVAL.resx">
+      <DependentUpon>ASVAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMP2.resx">
+      <DependentUpon>BMP2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BTR90.resx">
+      <DependentUpon>BTR90.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DAO12.resx">
+      <DependentUpon>DAO12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dogtag.resx">
+      <DependentUpon>Dogtag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DPV.resx">
+      <DependentUpon>DPV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F2000.resx">
+      <DependentUpon>F2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F35.resx">
+      <DependentUpon>F35.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FA18SH.resx">
+      <DependentUpon>FA18SH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FIM92Stinger.resx">
+      <DependentUpon>FIM92Stinger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en-GB.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en-US.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.yo-NG.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G3.resx">
+      <DependentUpon>G3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="G36C.resx">
+      <DependentUpon>G36C.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glock17.resx">
+      <DependentUpon>Glock17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Glock18.resx">
+      <DependentUpon>Glock18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GrowlerITV.resx">
+      <DependentUpon>GrowlerITV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Humvee.resx">
+      <DependentUpon>Humvee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Javelin.resx">
+      <DependentUpon>Javelin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="K22Tunguska.resx">
+      <DependentUpon>K22Tunguska.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KA60.resx">
+      <DependentUpon>KA60.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KH2002.resx">
+      <DependentUpon>KH2002.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M1014.resx">
+      <DependentUpon>M1014.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M16A4.resx">
+      <DependentUpon>M16A4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M1911.resx">
+      <DependentUpon>M1911.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M240.resx">
+      <DependentUpon>M240.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M249.resx">
+      <DependentUpon>M249.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M27.resx">
+      <DependentUpon>M27.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M39.resx">
+      <DependentUpon>M39.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M40A5.resx">
+      <DependentUpon>M40A5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M416.resx">
+      <DependentUpon>M416.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M4A1.resx">
+      <DependentUpon>M4A1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M60.resx">
+      <DependentUpon>M60.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M9.resx">
+      <DependentUpon>M9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M98B.resx">
+      <DependentUpon>M98B.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maine.resx">
+      <DependentUpon>Maine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mi28.resx">
+      <DependentUpon>Mi28.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MK11.resx">
+      <DependentUpon>MK11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP412REX.resx">
+      <DependentUpon>MP412REX.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP443Grach.resx">
+      <DependentUpon>MP443Grach.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MP7.resx">
+      <DependentUpon>MP7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="opsa.resx">
+      <DependentUpon>opsa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P90.resx">
+      <DependentUpon>P90.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDWR.resx">
+      <DependentUpon>PDWR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PKPPecheneg.resx">
+      <DependentUpon>PKPPecheneg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PP2000.resx">
+      <DependentUpon>PP2000.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RHIBBoat.resx">
+      <DependentUpon>RHIBBoat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPG7.resx">
+      <DependentUpon>RPG7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPK.resx">
+      <DependentUpon>RPK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SA18Igla.resx">
+      <DependentUpon>SA18Igla.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saiga12.resx">
+      <DependentUpon>Saiga12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SCARH.resx">
+      <DependentUpon>SCARH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SG553.resx">
+      <DependentUpon>SG553.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SKS.resx">
+      <DependentUpon>SKS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMAW.resx">
+      <DependentUpon>SMAW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Su35.resx">
+      <DependentUpon>Su35.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Su39.resx">
+      <DependentUpon>Su39.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Support.resx">
+      <DependentUpon>Support.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LAV25.resx">
+      <DependentUpon>LAV25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LAVAD.resx">
+      <DependentUpon>LAVAD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M1Abrams.resx">
+      <DependentUpon>M1Abrams.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PremiumGuide.resx">
+      <DependentUpon>PremiumGuide.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SV98.resx">
+      <DependentUpon>SV98.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SVD.resx">
+      <DependentUpon>SVD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="T90.resx">
+      <DependentUpon>T90.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ters.resx">
+      <DependentUpon>Ters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Type88.resx">
+      <DependentUpon>Type88.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UH1Y.resx">
+      <DependentUpon>UH1Y.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMP45.resx">
+      <DependentUpon>UMP45.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USAS12.resx">
+      <DependentUpon>USAS12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VDVBuggy.resx">
+      <DependentUpon>VDVBuggy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vodnik.resx">
+      <DependentUpon>Vodnik.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Z11.resx">
+      <DependentUpon>Z11.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Battlefield 3 - Help Tool_TemporaryKey.pfx" />
+    <None Include="BF3_Premium_Guide01_EN.pdf" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\256250_10150976825778445_478537776_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Battlefield.ico" />
+    <Content Include="Mail.ico" />
+    <None Include="Resources\z11.png" />
+    <None Include="Resources\vodnik.png" />
+    <None Include="Resources\vdv buggy.png" />
+    <None Include="Resources\usas.png" />
+    <None Include="Resources\ump45.png" />
+    <None Include="Resources\bf3_heli_sm.png" />
+    <None Include="Resources\type 88.png" />
+    <None Include="Resources\870mc.png" />
+    <None Include="Resources\t90.png" />
+    <None Include="Resources\svd.png" />
+    <None Include="Resources\sv98.png" />
+    <None Include="Resources\su39.png" />
+    <None Include="Resources\su35.png" />
+    <None Include="Resources\smaw.png" />
+    <None Include="Resources\sks.png" />
+    <None Include="Resources\sg553.png" />
+    <None Include="Resources\scarh.png" />
+    <None Include="Resources\saiga.png" />
+    <None Include="Resources\igla.png" />
+    <None Include="Resources\rpk-74m.png" />
+    <None Include="Resources\rpg.png" />
+    <None Include="Resources\rhib.png" />
+    <None Include="Resources\pp200+.png" />
+    <None Include="Resources\pkp.png" />
+    <None Include="Resources\pdwr.png" />
+    <None Include="Resources\p90.png" />
+    <None Include="Resources\93.png" />
+    <None Include="Resources\mp7.png" />
+    <None Include="Resources\mp443.png" />
+    <None Include="Resources\rex.png" />
+    <None Include="Resources\mk11.png" />
+    <None Include="Resources\mi28.png" />
+    <None Include="Resources\magnum.jpg" />
+    <None Include="Resources\m98b.png" />
+    <None Include="Resources\m9.png" />
+    <None Include="Resources\m60e4.png" />
+    <None Include="Resources\m4a1.png" />
+    <None Include="Resources\m416.png" />
+    <None Include="Resources\m40a5.jpg" />
+    <None Include="Resources\m39.png" />
+    <None Include="Resources\m27 iar.png" />
+    <None Include="Resources\m249.png" />
+    <None Include="Resources\m240.png" />
+    <None Include="Resources\m1 abrams.png" />
+    <None Include="Resources\m1911.png" />
+    <None Include="Resources\m16a4.png" />
+    <None Include="Resources\m16a3.png" />
+    <None Include="Resources\m1014.jpg" />
+    <None Include="Resources\lav-ad.png" />
+    <None Include="Resources\lav25.png" />
+    <None Include="Resources\kh2002.png" />
+    <None Include="Resources\ka60.png" />
+    <None Include="Resources\tunguska.png" />
+    <None Include="Resources\javelin.png" />
+    <None Include="Resources\humvee.png" />
+    <None Include="Resources\growler itv.png" />
+    <None Include="Resources\g18.png" />
+    <None Include="Resources\g17.png" />
+    <None Include="Resources\g36c.png" />
+    <None Include="Resources\g3.png" />
+    <None Include="Resources\stinger.png" />
+    <None Include="Resources\fa18.png" />
+    <None Include="Resources\f35.png" />
+    <None Include="Resources\f2000.png" />
+    <None Include="Resources\btr90.png" />
+    <None Include="Resources\dpv.png" />
+    <None Include="Resources\dao-12.png" />
+    <None Include="Resources\asval.png" />
+    <None Include="Resources\an94.png" />
+    <None Include="Resources\aks74u.png" />
+    <None Include="Resources\ak74.png" />
+    <None Include="Resources\aek-971.png" />
+    <None Include="Resources\a-91.png" />
+    <None Include="Resources\93R.jpg" />
+    <None Include="Resources\battlefield-3-aav.jpg" />
+    <None Include="Resources\battlefield-3-boat.jpg" />
+    <None Include="Resources\battlefield-3-dpv.jpg" />
+    <None Include="Resources\battlefield-3-vdv1.jpg" />
+    <None Include="Resources\growler-small.jpg" />
+    <None Include="Resources\battlefield-3-vodnik.jpg" />
+    <None Include="Resources\battlefield-3-humvee.jpg" />
+    <None Include="Resources\battlefield-3-f35.jpg" />
+    <None Include="Resources\battlefield-3-su39.jpg" />
+    <None Include="Resources\battlefield-3-su35-large.jpg" />
+    <None Include="Resources\battlefield-3-a10.jpg" />
+    <None Include="Resources\battlefield-3-f18-large.jpg" />
+    <None Include="Resources\battlefield-3-z11-8-620x348.jpg" />
+    <None Include="Resources\bf3-littlebird.jpg" />
+    <None Include="Resources\battlefield-3-ka60-5-620x348.jpg" />
+    <None Include="Resources\battlefield-3-huey-1-620x348.jpg" />
+    <None Include="Resources\battlefield-3-mi-28.jpg" />
+    <None Include="Resources\battlefield-3-cobra-8-620x348.jpg" />
+    <None Include="Resources\battlefield-3-btr-90.jpg" />
+    <None Include="Resources\battlefield-3-lav-ad.jpg" />
+    <None Include="Resources\battlefield-3-tunguska.jpg" />
+    <None Include="Resources\battlefield-3-bmp2.jpg" />
+    <None Include="Resources\battlefield-3-lav25.jpg" />
+    <None Include="Resources\283387.jpg" />
+    <None Include="Resources\deletered.png" />
+    <None Include="Resources\dislike.png" />
+    <None Include="Resources\newspaper.png" />
+    <None Include="Resources\info1.png" />
+    <None Include="Resources\info.png" />
+    <None Include="Resources\bf3-dogtags-all-1.jpg" />
+    <None Include="Resources\battlefield-3-wallpaper-high-res1_original.jpg" />
+    <None Include="Resources\page0076.jpg" />
+    <None Include="Resources\page0075.jpg" />
+    <None Include="Resources\page0074.jpg" />
+    <None Include="Resources\page0073.jpg" />
+    <None Include="Resources\page0072.jpg" />
+    <None Include="Resources\page0071.jpg" />
+    <None Include="Resources\page0070.jpg" />
+    <None Include="Resources\page0069.jpg" />
+    <None Include="Resources\page0068.jpg" />
+    <None Include="Resources\page0067.jpg" />
+    <None Include="Resources\page0066.jpg" />
+    <None Include="Resources\page0065.jpg" />
+    <None Include="Resources\page0064.jpg" />
+    <None Include="Resources\page0063.jpg" />
+    <None Include="Resources\page0062.jpg" />
+    <None Include="Resources\page0061.jpg" />
+    <None Include="Resources\page0060.jpg" />
+    <None Include="Resources\page0059.jpg" />
+    <None Include="Resources\page0058.jpg" />
+    <None Include="Resources\page0057.jpg" />
+    <None Include="Resources\page0056.jpg" />
+    <None Include="Resources\page0055.jpg" />
+    <None Include="Resources\page0054.jpg" />
+    <None Include="Resources\page0053.jpg" />
+    <None Include="Resources\page0052.jpg" />
+    <None Include="Resources\page0051.jpg" />
+    <None Include="Resources\page0050.jpg" />
+    <None Include="Resources\page0049.jpg" />
+    <None Include="Resources\page0048.jpg" />
+    <None Include="Resources\page0047.jpg" />
+    <None Include="Resources\page0046.jpg" />
+    <None Include="Resources\page0045.jpg" />
+    <None Include="Resources\page0044.jpg" />
+    <None Include="Resources\page0043.jpg" />
+    <None Include="Resources\page0042.jpg" />
+    <None Include="Resources\page0041.jpg" />
+    <None Include="Resources\page0040.jpg" />
+    <None Include="Resources\page0039.jpg" />
+    <None Include="Resources\page0038.jpg" />
+    <None Include="Resources\page0037.jpg" />
+    <None Include="Resources\page0036.jpg" />
+    <None Include="Resources\page0035.jpg" />
+    <None Include="Resources\page0034.jpg" />
+    <None Include="Resources\page0033.jpg" />
+    <None Include="Resources\page0032.jpg" />
+    <None Include="Resources\page0031.jpg" />
+    <None Include="Resources\page0030.jpg" />
+    <None Include="Resources\page0029.jpg" />
+    <None Include="Resources\page0028.jpg" />
+    <None Include="Resources\page0027.jpg" />
+    <None Include="Resources\page0026.jpg" />
+    <None Include="Resources\page0025.jpg" />
+    <None Include="Resources\page0024.jpg" />
+    <None Include="Resources\page0023.jpg" />
+    <None Include="Resources\page0022.jpg" />
+    <None Include="Resources\page0021.jpg" />
+    <None Include="Resources\page0020.jpg" />
+    <None Include="Resources\page0019.jpg" />
+    <None Include="Resources\page0018.jpg" />
+    <None Include="Resources\page0017.jpg" />
+    <None Include="Resources\page0016.jpg" />
+    <None Include="Resources\page0015.jpg" />
+    <None Include="Resources\page0014.jpg" />
+    <None Include="Resources\page0013.jpg" />
+    <None Include="Resources\page0012.jpg" />
+    <None Include="Resources\page0011.jpg" />
+    <None Include="Resources\page0010.jpg" />
+    <None Include="Resources\page0009.jpg" />
+    <None Include="Resources\page0008.jpg" />
+    <None Include="Resources\page0007.jpg" />
+    <None Include="Resources\page0006.jpg" />
+    <None Include="Resources\page0005.jpg" />
+    <None Include="Resources\page0004.jpg" />
+    <None Include="Resources\page0003.jpg" />
+    <None Include="Resources\page0002.jpg" />
+    <None Include="Resources\page0001.jpg" />
+    <None Include="Resources\battlefield-3-t90.jpg" />
+    <None Include="Resources\m1abrams.jpg" />
+    <None Include="Resources\battlefield_3_armored_kill_-_armored_shield_map_-_screen_2.jpeg" />
+    <None Include="Resources\BF3-Weapons-Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
