@@ -497,6 +497,7 @@ Partial Class Maine
         Me.DeumosButton8.TabIndex = 4
         Me.DeumosButton8.Text = "DeumosButton1"
         Me.DeumosButton8.Transparent = False
+        Me.DeumosButton8.Visible = False
         '
         'Label6
         '
