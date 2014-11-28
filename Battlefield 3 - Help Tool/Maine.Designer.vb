@@ -483,7 +483,7 @@ Partial Class Maine
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(781, 463)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "TabPage1"
+        Me.TabPage1.Text = "Home"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
         'Label6
