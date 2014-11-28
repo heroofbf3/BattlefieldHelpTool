@@ -412,7 +412,7 @@ Partial Class Maine
         Me.DeumosTheme2.Size = New System.Drawing.Size(802, 523)
         Me.DeumosTheme2.SmartBounds = True
         Me.DeumosTheme2.TabIndex = 0
-        Me.DeumosTheme2.Text = "DeumosTheme2"
+        Me.DeumosTheme2.Text = "Battlefield 3 - Help Tool"
         Me.DeumosTheme2.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.DeumosTheme2.Transparent = False
         '
